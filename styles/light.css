@@ -1,16 +1,33 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+  --bg-color: var(--light-pink-color);
+  --text-color: var(--dark-grey-color);
+  --accent-color: var(--dark-pink-color);
+  --main-title-color: var(--pink-text-color);
+  --bg-image: url(../images/cover-image-light.png);
+  --bracket-svg: url(../images/bracket-light.svg);
+  --main-font-family: var(--font-family);
+  --header-title-size: var(--text-big-size);
+  --font-bold: var(--font-weight-bold);
+  --font-normal: var(--font-weight-normal);
+  --general-text-size: var(--text-small-size);
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: var(--light-pink-color);
+    --text-color: var(--dark-grey-color);
+    --accent-color: var(--dark-pink-color);
+    --main-title-color: var(--pink-text-color);
+    --bg-image: url(../images/cover-image-light.png);
+    --bracket-svg: url(../images/bracket-light.svg);
+    --main-font-family: var(--font-family);
+    --header-title-size: var(--text-big-size);
+    --font-bold: var(--font-weight-bold);
+    --font-normal: var(--font-weight-normal);
+    --general-text-size: var(--text-small-size);
+  }
+}
+
+.theme-light .header__rec-wrapper {
+  display: none;
 }

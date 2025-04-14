@@ -1,4 +1,14 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+  --bg-color: var(--dark-blue-color);
+  --dark-blue-text: var(--dark-blue-color);
+  --text-color: var(--light-pink-color);
+  --accent-color: var(--purple-color);
+  --main-title-color: var(--neon-pink-color);
+  --bg-image: url(../images/cover-image-dark.png);
+  --bracket-svg: url(../images/bracket-dark.svg);
+  --main-font-family: var(--font-family);
+  --header-title-size: var(--text-big-size);
+  --font-bold: var(--font-weight-bold);
+  --font-normal: var(--font-weight-normal);
+  --general-text-size: var(--text-small-size);
+}

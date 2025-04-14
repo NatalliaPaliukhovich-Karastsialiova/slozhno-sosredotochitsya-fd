@@ -1,0 +1,17 @@
+:root {
+  --dark-blue-color: #000028;
+  --white-color: #fff;
+  --purple-color: #FF0070;
+  --neon-pink-color: #DB00FF;
+  --light-pink-color: #F1B2CE;
+  --dark-grey-color: #353430;
+  --powder-pink-color: #FFF1F7;
+  --pink-text-color: #FFC2E6;
+  --dark-pink-color: #FF8DCB;
+  --dark-blue-text-color: #000E2E;
+  --font-family: 'IBM Plex mono';
+  --text-small-size: 18px;
+  --text-big-size: 120px;
+  --font-weight-bold: 700;
+  --font-weight-normal: 400;
+}
