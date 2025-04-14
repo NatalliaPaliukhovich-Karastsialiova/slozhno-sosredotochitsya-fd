@@ -1,5 +1,5 @@
 :root.theme-light {
-  --bg-color: var(--light-pink-color);
+  --bg-color: var(--powder-pink-color);
   --text-color: var(--dark-grey-color);
   --accent-color: var(--dark-pink-color);
   --main-title-color: var(--pink-text-color);
@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-color: var(--light-pink-color);
+    --bg-color: var(--powder-pink-color);
     --text-color: var(--dark-grey-color);
     --accent-color: var(--dark-pink-color);
     --main-title-color: var(--pink-text-color);
