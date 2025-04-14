@@ -11,7 +11,7 @@
   --dark-blue-text-color: #000E2E;
   --font-family: 'IBM Plex mono';
   --text-small-size: 18px;
-  --text-big-size: 120px;
+  --text-big-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font-weight-bold: 700;
   --font-weight-normal: 400;
 }

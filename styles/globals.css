@@ -11,6 +11,7 @@ body {
   font-weight: var(--font-normal);
   font-size: var(--general-text-size);
   margin: 0 auto;
+  padding-inline: 0;
 }
 
 h1,

@@ -43,8 +43,9 @@
 
 .header__rec-wrapper {
   position: absolute;
-  top: 12px;
-  right: 30px;
+  top: 10px;
+  right: 28px;
+  line-height: 1.4;
 }
 
 .header__rec {
@@ -71,12 +72,21 @@
   justify-self: end;
 }
 
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .header__theme-menu-button {
   padding-inline: 13px;
-  padding-block-end: 2.5px;
+  padding-block-start: 0px;
+  padding-block-end: 5px;
   color: var(--accent-color);
   text-transform: lowercase;
   background-color: transparent;
+  line-height: 1;
+  letter-spacing: -0.5px;
 }
 
 .header__theme-menu-button_active {
@@ -88,7 +98,6 @@
   font-weight: var(--font-bold);
   font-size: var(--header-title-size);
   line-height: 0.83;
-  letter-spacing: -1px;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
@@ -96,13 +105,14 @@
   color: var(--dark-blue-text);
   font-weight: var(--font-bold);
   background-color: var(--accent-color);
+  line-height: 1.3;
 }
 
 .main {
-  margin-block-start: 40px;
+  margin-block: 40px;
 }
 
-.section {
+.section:not(:last-of-type) {
   margin-block-end: 50px;
 }
 
@@ -127,10 +137,12 @@
   font-weight: var(--font-bold);
   font-size: inherit;
   background-color: var(--accent-color);
+  line-height: 1.3;
 }
 
 .article__text {
   font-weight: var(--font-normal);
+  line-height: 1.3;
 }
 
 .accent-link {
@@ -177,7 +189,6 @@
   font-weight: var(--font-bold);
   font-size: var(--header-title-size);
   line-height: 0.83;
-  letter-spacing: -1px;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
 
