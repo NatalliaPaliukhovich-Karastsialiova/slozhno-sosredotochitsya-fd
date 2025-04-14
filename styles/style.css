@@ -1,5 +1,8 @@
-.page {
+.padding-general {
   padding-inline: 10px;
+}
+
+.page {
   color: var(--text-color);
   background-color: var(--bg-color);
   background-image: var(--bg-image);
@@ -24,7 +27,7 @@
   content: "";
   position: absolute;
   top: 10px;
-  right: 0;
+  right: 10px;
   background-image: var(--bracket-svg);
   transform: rotate(180deg);
   block-size: 25px;
@@ -35,7 +38,7 @@
   content: "";
   position: absolute;
   bottom: 10px;
-  left: 0;
+  left: 10px;
   background-image: var(--bracket-svg);
   block-size: 25px;
   inline-size: 25px;
@@ -44,7 +47,7 @@
 .header__rec-wrapper {
   position: absolute;
   top: 10px;
-  right: 28px;
+  right: 38px;
   line-height: 1.4;
 }
 
@@ -83,10 +86,10 @@
   padding-block-start: 0px;
   padding-block-end: 5px;
   color: var(--accent-color);
-  text-transform: lowercase;
-  background-color: transparent;
   line-height: 1;
   letter-spacing: -0.5px;
+  text-transform: lowercase;
+  background-color: transparent;
 }
 
 .header__theme-menu-button_active {
@@ -104,8 +107,8 @@
 .header__description {
   color: var(--dark-blue-text);
   font-weight: var(--font-bold);
-  background-color: var(--accent-color);
   line-height: 1.3;
+  background-color: var(--accent-color);
 }
 
 .main {
@@ -136,8 +139,8 @@
   color: var(--dark-blue-text);
   font-weight: var(--font-bold);
   font-size: inherit;
-  background-color: var(--accent-color);
   line-height: 1.3;
+  background-color: var(--accent-color);
 }
 
 .article__text {
@@ -167,7 +170,7 @@
   content: "";
   position: absolute;
   top: 10px;
-  right: 0;
+  right: 10px;
   background-image: var(--bracket-svg);
   transform: rotate(180deg);
   block-size: 25px;
@@ -178,7 +181,7 @@
   content: "";
   position: absolute;
   bottom: 10px;
-  left: 0;
+  left: 10px;
   background-image: var(--bracket-svg);
   block-size: 25px;
   inline-size: 25px;
@@ -194,11 +197,11 @@
 
 @media (width >= 768px) {
 
-  :root{
+  :root {
     --text-big-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
-  .page {
+  .padding-general {
     padding-inline: 20px;
   }
 
@@ -208,14 +211,17 @@
 
   .header::before {
     top: 20px;
+    right: 20px;
   }
 
   .header::after {
     bottom: 20px;
+    left: 20px;
   }
 
   .header__rec-wrapper {
     top: 22px;
+    right: 48px;
   }
 
   .header__title {
@@ -292,10 +298,12 @@
 
   .footer::before {
     top: 20px;
+    right: 20px;
   }
 
   .footer::after {
     bottom: 20px;
+    left: 20px;
   }
 }
 
