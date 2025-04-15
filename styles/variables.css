@@ -1,18 +1,19 @@
 :root {
   --bg-color: var(--dark-blue-color);
-  --dark-blue-text: var(--dark-blue-color);
+  --header__description-color: var(--dark-blue-color);
   --text-color: var(--light-pink-color);
   --accent-color: var(--purple-color);
   --header-color: var(--purple-color);
+  --brackets-color: var(--purple-color);
   --main-title-color: var(--neon-pink-color);
   --bg-image: url(../images/cover-image-dark.png);
-  --bracket-svg: url(../images/bracket-dark.svg);
-  --main-font-family: var(--font-family);
-  --header-title-size: var(--text-big-size);
-  --font-bold: var(--font-weight-bold);
-  --font-normal: var(--font-weight-normal);
-  --general-text-size: var(--text-small-size);
+  --main-font-family: 'IBM Plex mono';
+  --header-title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --font-bold: 700;
+  --font-normal: 400;
+  --general-text-size: 18px;
   --link-border-color: var(--light-pink-color);
   --menu-btn-border-opacity-color: var(--purple-color-opacity);
   --menu-text-color: var(--purple-color);
+  --rec-display: block;
 }
