@@ -2,6 +2,7 @@
   --bg-color: var(--powder-pink-color);
   --text-color: var(--dark-grey-color);
   --accent-color: var(--dark-pink-color);
+  --header-color: var(--dark-grey-color);
   --main-title-color: var(--pink-text-color);
   --bg-image: url(../images/cover-image-light.png);
   --bracket-svg: url(../images/bracket-light.svg);
@@ -10,6 +11,9 @@
   --font-bold: var(--font-weight-bold);
   --font-normal: var(--font-weight-normal);
   --general-text-size: var(--text-small-size);
+  --link-border-color: var(--dark-grey-color);
+  --menu-btn-border-opacity-color: var(--grey-color-opacity);
+  --menu-text-color: var(--dark-grey-color);
 }
 
 @media (prefers-color-scheme: light) {
@@ -17,6 +21,7 @@
     --bg-color: var(--powder-pink-color);
     --text-color: var(--dark-grey-color);
     --accent-color: var(--dark-pink-color);
+    --header-color: var(--dark-grey-color);
     --main-title-color: var(--pink-text-color);
     --bg-image: url(../images/cover-image-light.png);
     --bracket-svg: url(../images/bracket-light.svg);
@@ -25,6 +30,9 @@
     --font-bold: var(--font-weight-bold);
     --font-normal: var(--font-weight-normal);
     --general-text-size: var(--text-small-size);
+    --link-border-color: var(--dark-grey-color);
+    --menu-btn-border-opacity-color: var(--grey-color-opacity);
+    --menu-text-color: var(--dark-grey-color);
   }
 }
 

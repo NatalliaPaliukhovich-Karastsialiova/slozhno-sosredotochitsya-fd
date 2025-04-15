@@ -3,6 +3,7 @@
   --dark-blue-text: var(--dark-blue-color);
   --text-color: var(--light-pink-color);
   --accent-color: var(--purple-color);
+  --header-color: var(--purple-color);
   --main-title-color: var(--neon-pink-color);
   --bg-image: url(../images/cover-image-dark.png);
   --bracket-svg: url(../images/bracket-dark.svg);
@@ -11,4 +12,7 @@
   --font-bold: var(--font-weight-bold);
   --font-normal: var(--font-weight-normal);
   --general-text-size: var(--text-small-size);
+  --link-border-color: var(--light-pink-color);
+  --menu-btn-border-opacity-color: var(--purple-color-opacity);
+  --menu-text-color: var(--purple-color);
 }
