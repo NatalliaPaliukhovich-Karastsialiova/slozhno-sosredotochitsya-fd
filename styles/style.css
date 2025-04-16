@@ -39,9 +39,8 @@
   position: absolute;
   bottom: 10px;
   left: 10px;
-  border-bottom: 1px solid var(--brackets-color);
+  border-block-end: 1px solid var(--brackets-color);
   border-inline-start: 1px solid var(--brackets-color);
-  border-block-end: 10px;
   block-size: 25px;
   inline-size: 25px;
 }
@@ -112,7 +111,7 @@
   justify-self: start;
   color: var(--main-title-color);
   font-weight: var(--font-bold);
-  font-size: var(--header-title-size);
+  font-size: var(--text-big-size);
   line-height: 0.83;
   text-shadow: 4px 4px 0 var(--accent-color);
 }
